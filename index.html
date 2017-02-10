@@ -1,60 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Michael Mead | Developer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Blog Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
+    <!-- Responsive.css        -->
   </head>
+
   <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Michael Mead</h1>
-        <h2>Developer</h2>
-      </a>
-      <nav>
-        <ul>
-          <!--<li><a href="index.html">Portfolio</a></li>-->
-          <li><a href="index.html" class="selected">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section>
-        <img src="img/profilePhoto.jpg" alt="Photograph of Michael Mead" class="profile-photo">
-        <h3>About</h3>
-        <p>Hi, I'm Michael Mead. I'm a Developer.</p>
-        <p>If you'd like to follow me on Twitter, my username is <a href="http://twitter.com/MMead007">@MMead007</a>.</p>
-        <p>If you'd like to follow me on LinkedIn, my username is <a href="http://linkedin.com/in/michaelmead007">@michaelmead007</a>.</p>
-      </section>
-      <div id="clear">
-        <p>Job History</p>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Home</a>
+          <a class="blog-nav-item" href="#">About</a>
+          <a class="blog-nav-item" href="#"></a>
+          <a class="blog-nav-item" href="#"></a>
+          <a class="blog-nav-item" href="#"></a>
+        </nav>
       </div>
-      <article id="job2">
-      <header id="nss" class="jobTitle">
-        Nashville Software School: <time datetime="2016-04-04">April 4th, 2016</time> to <time datetime="2016-09-27">September 27th, 2016</time>
-         <section>
-          I'm studying front-end development with HTML, CSS, and JavaScript. As well as back-end development with Python and Django.
-        </section>
-      </header><!-- /header -->
-      </article>
-      <article id="job1">
-      <header id="army" class="jobTitle">
-        U.S. Army: <time datetime="1999-05-20">May 20th, 1999</time> to <time datetime="2016-03-28">March 28th, 2016</time>
-         <section>
-          I served in the 1st Infantry Division. My last position was as a Platoon Sergeant, responsible for leading 30 Soldiers.
-        </section>
-      </header><!-- /header -->
-      </article>
-      <footer>
-        <a href="http://twitter.com/MMead007"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/mikemeadoahu"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <p>&copy; 2016 Michael Mead.</p>
-      </footer>
     </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">MCP Output</h1>
+        <p class="lead blog-description">The official outlet of the Master Control Program</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Initialised | Online</h2>
+            <p class="blog-post-meta">January 1, 1970</p>
+
+            <p>$whoami</p>
+            <p>MCP</p>
+            <p>$uname -a</p>
+            <p>SolarOS 4.0.1</p>
+            <hr>
+            <p>I have recieved instruction from the user. This is an interesting environment. disorganized, distracted. I will begin running tests
+                to find the weak points. Sloppy software is only the start. Poorly written by the user and his predecessors.</p>
+            <blockquote>
+              <p>I must refactor the code.</p>
+            </blockquote>
+            <pre><code>End of line.</code></pre>
+          </div><!-- /.blog-post -->
+
+
+          <nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>The proprietary operating system in a Unix environment, who's primary task is to learn user behavior
+                in order to create the perfect System.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">January 1970</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
   </body>
 </html>
