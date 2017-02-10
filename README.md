@@ -1,2 +1,1 @@
- Seeker1911.github.io
-This page is (slowly) growing personal profile page.
+ The blog. As seen from the perspective of a computer.
